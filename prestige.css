@@ -1,0 +1,51 @@
+nav {display: flex;
+     justify-content: space-between;
+     background-color: beige;
+     padding:0px 20px;
+    margin:0;
+    padding:0;
+    }
+.logo { width 70px;}
+.profileimage {width: 30px;
+height: 30px;
+border: radius 50%;
+}
+.rigt-nav {
+    diplay: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 30%;
+    Justify_content: end;
+}
+.left-nav {
+    flex: 30px;
+}
+.middle-nav { 
+    flex: 70%;
+}
+.input-box{  
+          Background-color: chartreuse;
+          height: 40px;
+          border: 1px solid black;
+          border radius: 20px;
+}
+input {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    Padding-left: 10px;
+    outline: none;
+    border: none;
+
+}
+.create-btn {
+    border: none;
+    width: fit;
+    padding: 6px 15px;
+    border radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+    .create-btn:hover {
+         Background-color: inrgb(213, 208, 208);
+    }
